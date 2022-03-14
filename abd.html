@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registration page</title>
+        <style>
+        .bg {
+            /* The image used */
+            background-image: url("hospital.jpg");
+          
+            /* Full height */
+            height: 100%; 
+          
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          </style>
+    </head>
+    <body class="bg">
+        <h1>WLCOME TO ABC HOSPITAL</h1>
+        <h2>Patient Registration</h2>
+        
+     <form action="register">
+     <input type="text" name="text" placeholder="Patient name"> <br/>
+     <br>
+     <textarea name="text1" cols="30" rows="1" placeholder="Address"></textarea><br/>
+     <br> 
+     Gender:
+        <input type="radio" name="enter Gender"/>Male
+       <input type="radio" name="enter Gender"/>Female<br/>
+       <br>
+        <input type="number" name="number" placeholder="Mobile Number"><br/>
+        <br>
+       <input type="email" name="email" placeholder="Email"/><br/>
+       <h3>Type of case</h3>
+       <input type="radio" name="Type of case">Normal checkup <br/>
+       <input type="radio" name="Type of case">Accidental case <br/>
+       <input type="radio" name="Type of case">Heart attack <br/>
+       <input type="radio" name="Type of case">other critical case <br/>
+       <br>
+       <input type="submit" value="patient image" name="submit"><br>
+       <br>
+        <input type="date" name="date"><br/>
+        <br>
+       <input type="button" value="reset"/>
+       <input type="submit" value="submit"/>
+
+
+
+     </form>
+    </body>
+</html>
